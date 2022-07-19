@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@500;700&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 90px;
+    font-weight: 700;
+}
+
+nav h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+
+}
+
+.kit {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    /* font-family: Arial; */
+    color: #ffffff;
+    font-size: 15px;
+    background: #E02C6D;
+    font-weight: 700;
+    padding: 10px 30px 10px 20px;
+    text-decoration: none;
+}
+
+.top-container {
+    display: flex;
+    width: 75%;
+    margin: 10px 10px 10px 120px;
+}
+
+.bio h1 {
+    font-size: 52px;
+    line-height: 70px;
+    color: #3A3A3A;
+    width: 75%;
+
+}
+
+.bio p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+    width: 75%;
+
+}
+
+.camera img {
+    width: 440px;
+    height: 414px;
+    margin-left: 135px;
+    t
+}
