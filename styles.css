@@ -46,7 +46,7 @@ nav h3 {
 
 .top-container {
     display: flex;
-    width: 75%;
+    /* width: 75%; */
     margin: 10px 10px 10px 120px;
 }
 
@@ -54,7 +54,7 @@ nav h3 {
     font-size: 52px;
     line-height: 70px;
     color: #3A3A3A;
-    width: 75%;
+    /* width: 75%; */
 
 }
 
@@ -63,13 +63,64 @@ nav h3 {
     font-size: 16px;
     line-height: 24px;
     color: #3A3A3A;
-    width: 75%;
+    /* width: 75%; */
 
 }
 
 .camera img {
     width: 440px;
     height: 414px;
-    margin-left: 135px;
-    t
+    /* margin-left: 325px; */
+
+
+}
+
+hr {
+    margin: 50px;
+}
+
+.brands img {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.mid-container {
+
+    width: 60%;
+    margin-left: 350px;
+    /* text-align: center; */
+    border-radius: 7px;
+}
+
+.mid-container h1 {
+    text-align: center;
+}
+
+.collections {
+    /* background-color: #FFFFFF; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-row-gap: 34px;
+    grid-column-gap: 24px;
+}
+
+
+
+.collection {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width:688px) {
+    .top-container {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
