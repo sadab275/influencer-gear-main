@@ -86,14 +86,17 @@ hr {
 
 .mid-container {
 
-    width: 60%;
-    margin-left: 350px;
+    width: 100%;
+    /* margin-left: 50px; */
+
     /* text-align: center; */
     border-radius: 7px;
+
 }
 
 .mid-container h1 {
     text-align: center;
+
 }
 
 .collections {
@@ -103,6 +106,7 @@ hr {
     justify-content: center;
     grid-row-gap: 34px;
     grid-column-gap: 24px;
+    width: 100%;
 }
 
 
@@ -113,14 +117,23 @@ hr {
     border-radius: 5px;
     padding-top: 30px;
     padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
 }
 
 @media only screen and (max-width:688px) {
-    .top-container {
-        width: 100%;
 
+    .top-container,
+    .collections {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
 
+    }
+
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
     }
 }
